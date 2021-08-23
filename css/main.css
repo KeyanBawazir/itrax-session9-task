@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* --------commn styling---------- */
+.container  {
+    width: 90%;
+    height: 500px;
+    /* background-color: gray; */
+    margin: auto;
+    
+}
+.overflow {
+    overflow: hidden;/* to solve float problem*/
+}
+.f-left {
+    float: left;
+}
+/* --------------------------- */
+/* start class element styling */
+.my-works-item {
+    width: 100%;
+    height: 100%;
+}
+.item {
+    width: 33.3%;
+    height: 200px;
+    /* background-color: red; */
+    float: left;
+}      
+.item-img {
+    width: 20%;
+    height: 70px;
+    /* background-color: green; */
+    margin-top: 25px;
+}
+.item-details {
+    width: 80%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.title {
+    font-size: 17px;
+    margin-bottom: -4px;
+}
+.description {
+    color: #888;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
